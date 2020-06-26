@@ -1,0 +1,19 @@
+﻿<Window x:Class="str2ascii.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:str2ascii"
+        mc:Ignorable="d"
+        Title="Str2ASCII v0.1.0" Height="150.14" Width="936.152" Visibility="Visible" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="349*"/>
+            <ColumnDefinition Width="116*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="strbox" HorizontalAlignment="Left" Height="22" Margin="36,25,0,0" TextWrapping="Wrap" Text="Enter English string" VerticalAlignment="Top" Width="780" Grid.ColumnSpan="2" PreviewKeyDown="strbox_enter"/>
+        <TextBox x:Name="asciibox" HorizontalAlignment="Left" Height="22" Margin="36,70,0,0" TextWrapping="Wrap" Text="输出" VerticalAlignment="Top" Width="780" Grid.ColumnSpan="2"/>
+        <Button x:Name="stabut" Content="Str2ASCII" HorizontalAlignment="Left" Margin="136.4,47,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="stabut_Click"/>
+
+    </Grid>
+</Window>

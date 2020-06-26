@@ -1,0 +1,14 @@
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\bin\Debug\str2ascii.exe.config
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\bin\Debug\str2ascii.exe
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\bin\Debug\str2ascii.pdb
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.csprojResolveAssemblyReference.cache
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\MainWindow.g.cs
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\App.g.cs
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii_MarkupCompile.cache
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii_MarkupCompile.lref
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\MainWindow.baml
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.g.resources
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.Properties.Resources.resources
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.csproj.GenerateResource.Cache
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.exe
+D:\Users\ep\Documents\Visual Studio 2015\Projects\str2ascii\str2ascii\obj\Debug\str2ascii.pdb
