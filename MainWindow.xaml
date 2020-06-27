@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:str2ascii"
         mc:Ignorable="d"
-        Title="Str2ASCII v0.1.0" Height="150.14" Width="936.152" Visibility="Visible" WindowStyle="ToolWindow">
+        Title="Str2ASCII v0.2.2" Height="150.14" Width="936.152" Visibility="Visible" WindowStyle="ToolWindow">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="349*"/>

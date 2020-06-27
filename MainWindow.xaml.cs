@@ -25,20 +25,26 @@ namespace str2ascii
             InitializeComponent();
         }
 
-        void ASCII_Hex(string fill)
+        int ASCII_Hex(string fill)
         {
+            if (strbox.Text == "")
+            {
+                MessageBox.Show("请输入！");
+                return 1;
+            }
+                
             byte[] asciiTem = Encoding.Default.GetBytes(strbox.Text);
             asciibox.Text = null;
-            for (int i = 0; i < asciiTem.Length; i++)
+            int asciicode = (int)(asciiTem[0]);
+            asciibox.Text += asciicode.ToString("X");
+            for (int i = 1; i < asciiTem.Length; i++)
             {
-                int asciicode = (int)(asciiTem[i]);
-                if (i == 0)
-                    asciibox.Text += fill.Substring(1);
-                else
-                    asciibox.Text += fill;
+                asciicode = (int)(asciiTem[i]);
+                asciibox.Text += fill;
                 asciibox.Text += asciicode.ToString("X");
                 //asciibox.Text += Convert.ToString(asciicode,16);//字符串ASCIIstr2 为对应的ASCII字符串
             }
+            return 0;
 
         }
         private void stabut_Click(object sender, RoutedEventArgs e)
